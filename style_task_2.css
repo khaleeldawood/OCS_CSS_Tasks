@@ -1,0 +1,137 @@
+body {
+  background-color: #f3f2ef;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 80px;
+}
+
+.logo {
+  font-size: 35px;
+  font-weight: bold;
+  color: #0077b5;
+  margin-bottom: 20px;
+}
+
+.logo span {
+  color: black;
+}
+
+.form-box {
+  background-color: #fff;
+  width: 350px;
+  margin: 0 auto;
+  padding: 30px 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+h2 {
+  margin-bottom: 5px;
+}
+
+p {
+  color: #555;
+  font-size: 14px;
+}
+
+form {
+  margin-top: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.password-field {
+  position: relative;
+}
+
+.password-field a {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 12px;
+  color: #0077b5;
+  text-decoration: none;
+}
+
+.forgot {
+  display: block;
+  margin: 10px 0;
+  font-size: 13px;
+  color: #0077b5;
+  text-decoration: none;
+}
+
+.signin-btn {
+  width: 100%;
+  background-color: #0077b5;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.divider {
+  text-align: center;
+  margin: 15px 0;
+  position: relative;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 1px;
+  background: #ccc;
+  top: 50%;
+}
+
+.divider::before {
+  left: 0;
+}
+
+.divider::after {
+  right: 0;
+}
+
+.apple-btn {
+  width: 100%;
+  border: 1px solid #000;
+  background: white;
+  color: black;
+  padding: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.join {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.join a {
+  color: #0077b5;
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 60px;
+  font-size: 12px;
+  color: #777;
+}

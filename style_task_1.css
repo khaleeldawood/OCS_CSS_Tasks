@@ -1,0 +1,35 @@
+body {
+  background-color: #2e2e2e;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-color: white;
+  width: 600px;
+  margin: 80px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+th {
+  background-color: yellow;
+}
+
+tr:nth-child(2) td:first-child {
+  background-color: pink;
+}
+
+.footer {
+  font-weight: bold;
+}
