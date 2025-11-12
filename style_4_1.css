@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background-color: #d9b77a;
+}
+
+.banner {
+    background-color: #8b4c24;
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1 {
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: #d9b77a;
+    padding: 15px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.content {
+    padding: 30px;
+    width: 80%;
+    margin: auto;
+}
+
+.content h2 {
+    font-size: 28px;
+    color: black;
+}
+
+.content p {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 10px;
+}

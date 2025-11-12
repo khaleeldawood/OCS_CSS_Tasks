@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    background: white;
+    padding: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 80px 250px 150px;
+    gap: 10px;
+}
+
+/* السطر الأسود */
+.item1 {
+    grid-column: 1 / 3;
+    background: black;
+}
+
+/* البرتقالي الكبير */
+.item2 {
+    background: orange;
+}
+
+/* الأخضر */
+.item3 {
+    background: green;
+}
+
+/* الأزرق */
+.item4 {
+    grid-column: 1 / 3;
+    background: blue;
+}

@@ -1,0 +1,41 @@
+body {
+    background: #fff8cc;
+    font-family: Arial, sans-serif;
+    padding: 20px 40px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.article {
+    background: white;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.a1 {
+    border: 2px solid #b7b7b7;
+}
+
+.a2 {
+    border: 2px solid #b7b7b7;
+}
+
+.a3 {
+    border: 2px dashed red;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 22px;
+}
+
+.red-heading {
+    color: red;
+}
+
+.highlight {
+    background: yellow;
+}

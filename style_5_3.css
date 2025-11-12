@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.fixed-box {
+    position: fixed;
+    top: 60px;
+    right: 40px;
+
+    width: 200px;
+    background: white;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+
+    padding: 10px;
+    text-align: center;
+}
+
+.fixed-box img {
+    width: 100%;
+    height: auto;
+}
